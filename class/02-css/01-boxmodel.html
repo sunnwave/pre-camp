@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Document</title>
+    <style>
+      div {
+        width: 80px;
+        height: 80px;
+        border: 1px solid red;
+        padding: 10px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      /* #contentBox {
+        box-sizing: content-box;
+      }
+
+      #borderBox {
+        box-sizing: border-box;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- 컨텐츠 박스 -->
+    <!-- 상자 크기 자체가 더 커짐 -->
+    <div id="contentBox">박스 1</div>
+    <!-- 기본 -->
+    <!-- 상자 크기 자체가 더 커짐 -->
+    <!-- 기본적으로 컨텐츠 박스와 같은 성질을 가짐 -->
+    <div>박스 2</div>
+    <!-- 보더 박스 -->
+    <!-- 박스 크기는 그대로, 박스 안의 여백만 변화 -->
+    <div id="borderBox">박스 3</div>
+  </body>
+</html>
