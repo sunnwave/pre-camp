@@ -16,8 +16,6 @@
     background-image: url("../images/outerbox.png");
 }
 
-
-
 .innerbox {
     display: flex;
     flex-direction: row;
@@ -160,22 +158,23 @@ line-height: normal;
     padding: 0px 14px;
 }
 
-.right__header__setting{
+.right__header__setting {
     color: #55B2D4;
-font-family: PFStardust;
-font-size: 13px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px; /* 123.077% */
+    font-family: PFStardust;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 123.077% */
 }
 
 .right__header__title {
     color: #55B2D4;
-font-family: Malgun Gothic;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Malgun Gothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .innerbox__right__body {
