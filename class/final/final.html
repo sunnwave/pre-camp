@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Document</title>
+    <link href="./final.css" rel="stylesheet" />
+    <script src="./final.js"></script>
+  </head>
+  <body>
+    <div class="form">
+      <div class="title">코드캠프 회원가입</div>
+      <input
+        class="info"
+        type="text"
+        id="email"
+        placeholder="이메일을 입력해 주세요. "
+      />
+      <input
+        class="info"
+        id="name"
+        type="text"
+        placeholder="이름을 입력해 주세요."
+      />
+      <input
+        class="info"
+        id="password1"
+        type="text"
+        placeholder="비밀번호를 입력해 주세요."
+      />
+      <input
+        class="info"
+        id="password2"
+        type="text"
+        placeholder="비밀번호를 다시 입력해 주세요."
+      />
+      <div class="phone-number">
+        <input class="phone" id="phone1" type="text" /> -
+        <input class="phone" id="phone2" type="text" /> -
+        <input class="phone" id="phone3" type="text" />
+      </div>
+      <div class="sendAuthNum">
+        <div id="authNum">000000</div>
+        <button id="sendAuth">인증번호 전송</button>
+      </div>
+      <div class="finishAuthNum">
+        <div id="timer">3:00</div>
+        <button id="finishAuth">인증 완료</button>
+      </div>
+      <div class="selectRegion">
+        <select class="region">
+          <option disabled="true" selected="true">지역을 선택하세요</option>
+          <option>서울</option>
+          <option>인천</option>
+          <option>경기</option>
+        </select>
+      </div>
+      <div class="selectGender">
+        <input type="radio" name="gender" class="gender" />여성
+        <input type="radio" name="gender" class="gender" />남성
+      </div>
+      <div class="divideLine"></div>
+      <button id="signup">가입하기</button>
+    </div>
+  </body>
+</html>

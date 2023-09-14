@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.form {
+    width: 540px;
+    height: 960px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #AACDFF;
+    background: #FFF;
+    box-shadow: 7px 7px 39px 0px rgba(0, 104, 255, 0.25);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    width: 380px;
+    color: #0068FF;
+    font-family: Noto Sans CJK KR;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.info {
+    width: 380px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid #D2D2D2;
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 14.68px;
+    color: #797979;
+font-family: Noto Sans CJK KR;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.phone-number {
+    width: 380px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone {
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid #D2D2D2;
+    background: #FFF;
+}
+
+.sendAuthNum {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+#authNum {
+    color: #0068FF;
+    text-align: right;
+    font-family: Noto Sans CJK KR;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sendAuth {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    background-color: white;
+    color: #0068FF;
+    text-align: center;
+    font-family: Noto Sans CJK KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 21px;
+
+}
+
+.finishAuthNum {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+#timer {
+    color: #0068FF;
+    text-align: right;
+    font-family: Noto Sans CJK KR;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#finishAuth {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #0068FF;
+    border-radius: 7px;
+    background-color: #0068FF;
+    color: white;
+    text-align: center;
+    font-family: Noto Sans CJK KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 21px;
+}
+
+.region{
+    width: 380px;
+height: 60px;
+border-radius: 7px;
+border: 1px solid #D2D2D2;
+background: #FFF;
+color: #797979;
+font-family: Noto Sans CJK KR;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-left: 14.86px;
+/* padding-right: 23px; */
+appearance: none;
+background: url(./Polygon\ 1.svg) no-repeat 95% 50%;
+}
+
+.selectGender{
+    width: 140px;
+    height: 23.944px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gender{
+    color: #000;
+font-family: Noto Sans CJK KR;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+/* fill: #EBEBEB; */
+border: 1px solid #D2D2D2;
+background-color: #EBEBEB;
+}
+
+.divideLine{
+    width: 100%;
+    border-top: 1px solid #E6E6E6;
+}
+
+#signup{
+    width: 380px;
+height: 75px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #0068FF;
+background: #FFF;
+color: #0068FF;
+text-align: center;
+font-family: Noto Sans CJK KR;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
