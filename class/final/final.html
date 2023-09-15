@@ -12,53 +12,86 @@
         class="info"
         type="text"
         id="email"
-        placeholder="이메일을 입력해 주세요. "
+        placeholder="이메일을 입력해 주세요."
       />
+      <div id="emailError" class="errorMsg"></div>
       <input
         class="info"
         id="name"
         type="text"
         placeholder="이름을 입력해 주세요."
       />
+      <div id="nameError" class="errorMsg"></div>
       <input
         class="info"
         id="password1"
-        type="text"
+        type="password"
         placeholder="비밀번호를 입력해 주세요."
       />
+      <div id="password1Error" class="errorMsg"></div>
       <input
         class="info"
         id="password2"
-        type="text"
+        type="password"
         placeholder="비밀번호를 다시 입력해 주세요."
       />
+      <div id="password2Error" class="errorMsg"></div>
       <div class="phone-number">
-        <input class="phone" id="phone1" type="text" /> -
-        <input class="phone" id="phone2" type="text" /> -
-        <input class="phone" id="phone3" type="text" />
+        <input
+          class="phone"
+          id="phone1"
+          type="text"
+          oninput="changeFocus()"
+          maxlength="3"
+        />
+        -
+        <input
+          class="phone"
+          id="phone2"
+          type="text"
+          oninput="changeFocus2()"
+          maxlength="4"
+        />
+        -
+        <input
+          class="phone"
+          id="phone3"
+          type="text"
+          maxlength="4"
+          oninput="activateSend()"
+        />
       </div>
       <div class="sendAuthNum">
         <div id="authNum">000000</div>
-        <button id="sendAuth">인증번호 전송</button>
+        <button id="sendAuth" disabled="true" onclick="sendAuth()">
+          인증번호 전송
+        </button>
       </div>
       <div class="finishAuthNum">
         <div id="timer">3:00</div>
-        <button id="finishAuth">인증 완료</button>
+        <button id="finishAuth" disabled="true" onclick="finishAuth()">
+          인증 확인
+        </button>
       </div>
+      <div id="numError" class="errorMsg"></div>
       <div class="selectRegion">
-        <select class="region">
-          <option disabled="true" selected="true">지역을 선택하세요</option>
+        <select class="region" id="region">
+          <option disabled="true" selected="true" value="">
+            지역을 선택하세요
+          </option>
           <option>서울</option>
           <option>인천</option>
           <option>경기</option>
         </select>
+        <div id="regionError" class="errorMsg"></div>
       </div>
       <div class="selectGender">
-        <input type="radio" name="gender" class="gender" />여성
-        <input type="radio" name="gender" class="gender" />남성
+        <input type="radio" name="gender" class="gender" value="female" />여성
+        <input type="radio" name="gender" class="gender" value="male" />남성
       </div>
+      <div id="genderError" class="errorMsg"></div>
       <div class="divideLine"></div>
-      <button id="signup">가입하기</button>
+      <button id="signup" onclick="signUp()">가입하기</button>
     </div>
   </body>
 </html>

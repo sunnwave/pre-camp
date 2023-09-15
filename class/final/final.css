@@ -44,11 +44,11 @@
     align-items: center;
     padding-left: 14.68px;
     color: #797979;
-font-family: Noto Sans CJK KR;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Noto Sans CJK KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .phone-number {
@@ -92,7 +92,7 @@ line-height: normal;
     border: 1px solid #D2D2D2;
     border-radius: 7px;
     background-color: white;
-    color: #0068FF;
+    /* color: #0068FF; */
     text-align: center;
     font-family: Noto Sans CJK KR;
     font-size: 16px;
@@ -124,10 +124,13 @@ line-height: normal;
 #finishAuth {
     width: 120px;
     height: 40px;
-    border: 1px solid #0068FF;
     border-radius: 7px;
-    background-color: #0068FF;
-    color: white;
+    /* border: 1px solid #0068FF; */
+    /* background-color: #0068FF; */
+    /* color: white; */
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    background-color: white;
     text-align: center;
     font-family: Noto Sans CJK KR;
     font-size: 16px;
@@ -137,29 +140,29 @@ line-height: normal;
     margin-left: 21px;
 }
 
-.region{
+.region {
     width: 380px;
-height: 60px;
-border-radius: 7px;
-border: 1px solid #D2D2D2;
-background: #FFF;
-color: #797979;
-font-family: Noto Sans CJK KR;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding-left: 14.86px;
-/* padding-right: 23px; */
-appearance: none;
-background: url(./Polygon\ 1.svg) no-repeat 95% 50%;
+    height: 60px;
+    border-radius: 7px;
+    border: 1px solid #D2D2D2;
+    background: #FFF;
+    color: #797979;
+    font-family: Noto Sans CJK KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 14.86px;
+    /* padding-right: 23px; */
+    appearance: none;
+    background: url(./Polygon\ 1.svg) no-repeat 95% 50%;
 }
 
-.selectGender{
+.selectGender {
     width: 140px;
     height: 23.944px;
     display: flex;
@@ -167,35 +170,50 @@ background: url(./Polygon\ 1.svg) no-repeat 95% 50%;
     justify-content: space-between;
 }
 
-.gender{
+.gender {
     color: #000;
-font-family: Noto Sans CJK KR;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-/* fill: #EBEBEB; */
-border: 1px solid #D2D2D2;
-background-color: #EBEBEB;
+    font-family: Noto Sans CJK KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* fill: #EBEBEB; */
+    border: 1px solid #D2D2D2;
+    background-color: #EBEBEB;
 }
 
-.divideLine{
+.divideLine {
     width: 100%;
     border-top: 1px solid #E6E6E6;
 }
 
-#signup{
+#signup {
     width: 380px;
-height: 75px;
-flex-shrink: 0;
-border-radius: 10px;
-border: 1px solid #0068FF;
-background: #FFF;
-color: #0068FF;
-text-align: center;
-font-family: Noto Sans CJK KR;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #0068FF;
+    background: #FFF;
+    color: #0068FF;
+    /* border: 1px solid #D2D2D2; */
+    border-radius: 7px;
+    background-color: white;
+    text-align: center;
+    font-family: Noto Sans CJK KR;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.errorMsg {
+    width: 100%;
+    height: 10px;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
