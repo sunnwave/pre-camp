@@ -1,6 +1,6 @@
 let isStarted= false
 let time
-let timeLimit=5
+let timeLimit=180
 let timer
 let authPhone=false
 const changeFocus=()=>{
